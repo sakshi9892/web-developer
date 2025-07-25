@@ -1,38 +1,95 @@
-{
-    padding: 0px;
-    margin: 0px;
-    box-sizing:border-box;
+* {
+  padding: 0px;
+  margin: 0px;
+  box-sizing: border-box;
 }
 
-.flex-container{
-    width: 100%;
-    height: 100px;
-    background-color: blue;
-    border: 6px solid black;
-    display: flex;
-    flex-direction: row;
-    justify-content: space-evenly;
-    align-items: center;
-    margin: 4px;
+.flex-container {
+  background-color: #abd9e7;
+  border: 6px solid #1e09e2;
+  display: flex;
+  flex-direction: row;
+  height: 150px;
+  justify-content: space-evenly;
+  align-items: center;
+  margin: 10px;
 }
 
-.flex-item{
-    width: 30%;
-    height: 90%;
-    background-color: pink;
-    border: 4px solid red;
+.flex-item {
+  background-color: #fcd9b9;
+  border: 5px solid #f58172;
+  height: 70%;
+  width: 30%;
 }
 
-#middle-box{
-    display: flex;
-    flex-direction: row;
-    width: 50%;
-    height:90%;
+#middle_box {
+  display: flex;
+  flex-direction: row;
 }
 
-.middle-div{
-    background-color: black;
-    border: 4px solid rebeccapurple;
-    width:50%;
-    margin: 2px;
+.middle_divone {
+  background-color: #fac0cc;
+  border: 4px solid #f60106;
+  margin: 2px;
+  width: 50%;
+}
+
+.bada_box {
+  background-color: #c5efc5;
+  border: 4px solid #268007;
+  height: 100vh;
+}
+
+.middle_flex_container {
+  height: 170px;
+  background-color: #c5efc5;
+  margin: 10px;
+  display: flex;
+}
+
+.middle_flex_container_one {
+  width: 50%;
+  background-color: #f2b1af;
+  height: 100%;
+  border: 4px solid #96433d;
+  margin-right: 5px;
+}
+
+.middle_flex_container_two {
+  width: 50%;
+  /* background-color: #f2b1af; */
+  height: 100%;
+  /* border: 4px solid #96433d; */
+}
+
+.mid_one {
+  background-color: #f2b1af;
+  height: 82px;
+  border: 4px solid #96433d;
+  margin-bottom: 5px;
+  flex:1;
+}
+.mid_two {
+  background-color: #f2b1af;
+  height: 82px;
+  flex:1;
+  border: 4px solid #96433d;
+}
+
+.flex-container2 {
+  background-color: #abd9e7;
+  border: 6px solid #1e09e2;
+  display: flex;
+  flex-direction: row;
+  height: 150px;
+  justify-content: space-evenly;
+  align-items: center;
+  margin: 10px;
+}
+
+.flex-item2 {
+  background-color: #fcd9b9;
+  border: 5px solid #f58172;
+  height: 70%;
+  width: 25%;
 }
